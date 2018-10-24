@@ -1,14 +1,41 @@
 {
   "name": "reactNativeStarterEthereum",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
+  "author": "viktor-tsybulko",
+  "description": "React Native App Starter with ethereum for Android and iOS",
+  "license": "MIT",
+  "homepage": "https://www.facebook.com/walter.matvin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viktor-tsybulko/reactNativeStarterEthereum"
+  },
+  "keywords": [
+    "React Native",
+    "Starter Kit",
+    "Bitrise",
+    "Redux",
+    "Ethereum",
+    "Web3js"
+  ],
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.6.0-alpha.8af6728",
-    "react-native": "0.57.3"
+    "@babel/runtime": "^7.1.2",
+    "Base64": "^1.0.1",
+    "babel-plugin-rewrite-require": "^1.14.5",
+    "bcryptjs": "^2.4.3",
+    "bip39": "^2.5.0",
+    "bluebird": "^3.3.5",
+    "brorand": "1.0.6",
+    "core-js": "^2.5.7",
+    "node-libs-browser": "2.0.0",
+    "react": "^16.5.2",
+    "react-native": "0.57.3",
+    "sha256": "^0.2.0",
+    "web3": "1.0.0-beta.34"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
